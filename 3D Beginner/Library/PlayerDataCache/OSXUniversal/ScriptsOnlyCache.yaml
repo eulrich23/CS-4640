@@ -1,26 +1,56 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameEnding
+    - LightFlicker
+    - Observer
     - PlayerMovement
-    - Readme
+    - WaypointPatrol
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineFramingTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.Image
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -31,7 +61,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
@@ -39,9 +73,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -53,9 +97,49 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11256}
+    - Class: 114
+      Script: {instanceID: 11308}
+    - Class: 114
+      Script: {instanceID: 11316}
+    - Class: 114
+      Script: {instanceID: 11434}
+    - Class: 114
+      Script: {instanceID: 11608}
+    - Class: 114
+      Script: {instanceID: 11752}
+    - Class: 114
+      Script: {instanceID: 11786}
     - Class: 114
       Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 11836}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 12558}
+    - Class: 114
+      Script: {instanceID: 12718}
+    - Class: 114
+      Script: {instanceID: 12788}
+    - Class: 114
+      Script: {instanceID: 13376}
+    - Class: 114
+      Script: {instanceID: 14076}
+    - Class: 114
+      Script: {instanceID: 14124}
+    - Class: 114
+      Script: {instanceID: 14218}
+    - Class: 114
+      Script: {instanceID: 24372}
+    - Class: 114
+      Script: {instanceID: 111282}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -63,7 +147,27 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -270,6 +374,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 9a79b1fee2533091f6b597384d21cd98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameEnding
   - hash:
       serializedVersion: 2
       Hash: b5eb08b578a2f2d80bb106cbe65ab501
@@ -1014,7 +1124,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1977a7d51a5c5dee54d0932eea0adb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Observer
+  - hash:
+      serializedVersion: 2
+      Hash: 9a62527cf96c99811bbc76fe09736c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaypointPatrol
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: /Users/ericulrich/Documents/CS 4640/3D Beginner/Builds/3D_Beginner.app
+  playerPath: /Users/ericulrich/Documents/CS 4640/CS-4640/3D Beginner/Builds/Mac
+    Final Build.app
