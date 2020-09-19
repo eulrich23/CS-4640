@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{B1A1F748-2F20-C7DC-6A6F-5DBA3B56EBE7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameEnding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Observer.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="24" Column="52" />
-      <File FileName="Assets/Scripts/GameEnding.cs" Line="19" Column="10" />
+      <File FileName="Assets/Scripts/GameEnding.cs" />
+      <File FileName="Assets/Scripts/Observer.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="3D Beginner" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameEnding.cs" selected="True" />
+                <Node name="Observer.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="65ee691e-e02b-460a-a466-a2c65fbbb338" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a159dae9-64e6-4ca2-a5f3-534c94877a1d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
