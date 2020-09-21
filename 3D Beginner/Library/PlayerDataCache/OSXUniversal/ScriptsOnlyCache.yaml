@@ -38,10 +38,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -108,35 +106,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11752}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11754}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11788}
     - Class: 114
       Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 12558}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12560}
     - Class: 114
-      Script: {instanceID: 12788}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 13376}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 14076}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 14124}
+      Script: {instanceID: 14078}
     - Class: 114
-      Script: {instanceID: 14218}
+      Script: {instanceID: 14126}
     - Class: 114
-      Script: {instanceID: 24372}
+      Script: {instanceID: 14220}
     - Class: 114
-      Script: {instanceID: 111282}
+      Script: {instanceID: 14354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -320,6 +318,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1977a7d51a5c5dee54d0932eea0adb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Observer
   - hash:
       serializedVersion: 2
       Hash: c80bc562de10fdbf8b2e9bcb89d80421
@@ -1120,22 +1124,16 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 0f1977a7d51a5c5dee54d0932eea0adb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Observer
-  - hash:
-      serializedVersion: 2
       Hash: 9a62527cf96c99811bbc76fe09736c81
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaypointPatrol
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 2
   scenePathNames:
   - Assets/Scenes/MainScene.unity
